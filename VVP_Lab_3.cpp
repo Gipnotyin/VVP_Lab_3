@@ -69,7 +69,7 @@ int main()
 		cin >> A;
 		a = A * A;
 		b = a * a;
-		A = b * b * b * a * A;
+		A = b * b * a * a * a * A;
 		cout << "A^15 = " << A << endl;
 		break;
 	default:
